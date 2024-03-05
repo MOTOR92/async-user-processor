@@ -1,9 +1,19 @@
 {
-  "type": "module",
+  "name": "async-user-processor",
+  "version": "1.0.0",
+  "description": "A module to asynchronously process an array of users",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node script.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motor92/async-user-processor.git"
+  },
+  "keywords": ["async", "users", "processor"],
+  "author": "My_event_horizon",
+  "license": "MIT",
   "dependencies": {
-    "realm-utils-motor": "1.0.9"
+    "realm-utils-motor": "^1.0.9"
   }
 }
